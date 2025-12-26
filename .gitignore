@@ -1,0 +1,7 @@
+*.pyc
+.vscode
+output
+build
+install
+log
+*.log
