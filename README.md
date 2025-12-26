@@ -40,12 +40,15 @@ sudo apt install ros-jazzy-rviz2 \
                  ros-jazzy-position-controllers \
                  ros-jazzy-gz-ros2-control \
                  ros-jazzy-ros2controlcli \
-                 ros-jazzy-gz-sim
+                 ros-jazzy-moveit-visual-tools \
+                 ros-jazzy-ros-gz
 ```
+
 
 ### 3. Build the Workspace
 ```bash
 cd ~/your_ros2_ws  # Replace with your workspace path
+conda deactivate
 colcon build --symlink-install
 source install/setup.bash
 ```
